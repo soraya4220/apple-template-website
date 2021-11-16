@@ -3,153 +3,8 @@
 
 <head>
   <title>Apple website</title>
-  <style>
-    body {
-      margin: 0px;
-      direction: ltr;
-    }
-a {
-  text-decoration: none;
-}
-    /* beginning of header */
-    header {
-      background-color: white;
-      height: 100px;
-    }
-
-    #top-header {
-      background-color: #1d1c1c;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content:center;
-      font-size: small;
-     
-    }
-#nav-one{
-  display: flex;
-  justify-content: space-around;
-  width: 64%;
-}
- #nav-one a {
-   padding: 5px;
-   display: inline-block;
-   color: rgb(235, 228, 228);
+  <link rel="stylesheet" href="css/style.css">
  
- }
-
-    #logo-apple {
-      width: 20px;
-      height: 20px;
-    }
-
-    #logo-search {
-      width: 20px;
-      height: 20px;
-      
-
-    }
-
-    #logo-bag {
-      width:20px;
-      height: 20px;
-      margin-left: 25px;
-    }
-
-    #bottom-header {
-      background-color: #ce3737;
-      height: 50px;
-      display: flex;
-      justify-content:space-evenly;
-      align-items: center;
-      font-size: medium;
-    }
-    /* #bottom-header p{
-      margin: 0;
-    padding: 16px;
-    text-align: center;
-    } */
-
-    #bottom {
-      color: rgb(255, 247, 247);
-
-    }
-
-    #shop {
-      color: rgb(245, 245, 245);
-    }
-
-    /* end of header */
-    
-    main {
-      background-color: white;
-      height: 500px;
-    }
-
-/* .banner{
-  display: flex;
-   justify-content: center;
-   align-items: center;
-  flex-direction: column;
-  height: 500px;
-}
- .title-banner{
-  
-   font-size:xx-large;
-   margin-top: 30px;
- }
-
- .title2-banner {
-    margin-top: 10px;
-   font-size: large;
- }
-
- .links-banner {
-   margin-top: 10px;
-   color: rgb(108, 108, 233);
- } */
- /* /// راه حل دوم */
- .banner{
-  height: 500px;
-}
- .title-banner{
-  
-   font-size:50pt;
-   margin-top: 30px;
-   text-align: center;
-   color: #443d3d;
- }
-
- .title2-banner {
-    margin-top: 6px;
-   font-size: 28px;
-   text-align: center;
- }
-
- .links-banner {
-   margin-top: 6px;
-   text-align: center;
- 
- }
- .links-banner a{
-   padding: 15px;
-   color: #3030dd;
-   font-size: 20px;
- }
-.image-banner{
-  text-align: center;
-  margin-top: 15px;
-}
- #iphone-pro {
-   width: 250px;
-   height: 200px;
- }
-
-    footer {
-      background-color: #f3f3f3;
-      height: 350px;
-    }
-  </style>
 </head>
 
 <body margin="0">
@@ -167,6 +22,7 @@ a {
       <nav id="nav-one">
           <div id="store">
             <a href="#">Store</a>
+          <!-- <span id="test">whatch</span> -->
           </div>
           <div id="Mac">
             <a href="#">Mac</a>
@@ -219,41 +75,62 @@ a {
   <main>
     
     <section id="section-13pro" class="banner">
-
-      <h1 class="title-banner">iphone 13pro</h1>
-     
-      <div class="title2-banner">Oh. So. Pro.</div>
-      
-      <div class="links-banner">
-        <a href="#">Learn more > </a> 
-        <a href="#">Buy ></a>
-      </div>
       
       <div class="image-banner">
-        <img id="iphone-pro" src="images/pictures/iphone13.jpg" alt="">
+        <h1 class="title-banner">iphone 13pro</h1>
+     
+        <div class="title2-banner">Oh. So. Pro.</div>
+        
+        <div class="links-banner">
+          <a href="#">Learn more > </a> 
+          <a href="#">Buy ></a>
+        </div>
+         </div>
+
+    </section>
+
+
+    <section id="section-13" class="banner1">
+
+      <div class="image-banner1">
+        <h1 class="title-banner1">iphone 13</h1>
+     
+        <div class="title2-banner2">your new superpower.</div>
+        
+        <div class="links-banner1">
+          <a href="#">Learn more > </a> 
+          <a href="#">Buy ></a>
+        </div>
 
       </div>
 
     </section>
-    <section id="section-13pro" class="banner">
 
-      <h1 class="title-banner">iphone 13pro</h1>
-     
-      <div class="title2-banner">Oh. So. Pro.</div>
-      
-      <div class="links-banner">
+    
+    <section id="section-mac" class="banner2">
+        
+      <div class="image-banner2"> 
+        <h1 class="title-banner2">MacBook Pro</h1>
+      <div class="title3-banner3">Supercharged for pros.</div>
+      <div class="links-banner3">
         <a href="#">Learn more > </a> 
         <a href="#">Buy ></a>
+      </div>  
       </div>
+
+      <div class="image-banner3"> 
+        <h1 class="title-banner3">AirPods</h1>
+      <div class="title4-banner4">All new with Spatial Audio
+        
+      </div>
+      <div class="links-banner4">
+        <a href="#">Learn more > </a> 
+        <a href="#">Buy ></a>
+      </div>  
+      </div>
+
       
-      <div class="image-banner">
-        <img id="iphone-pro" src="images/pictures/iphone13.jpg" alt="">
-
-      </div>
-
     </section>
-    
-    
 
 
   </main>
