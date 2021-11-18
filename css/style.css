@@ -1,94 +1,92 @@
 body {
-    margin: 0px;
-    direction: ltr;
-  }
-a {
-text-decoration: none;
+  margin: 0px;
+  direction: ltr;
 }
-  /* beginning of header */
-  header {
-    background-color: white;
-    height: 100px;
-  }
+a {
+  text-decoration: none;
+}
+/* beginning of header */
+header {
+  background-color: white;
+  height: 100px;
+}
 
-  #top-header {
-    background-color: #1d1c1c;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    font-size: small;
-   
-  }
-#nav-one{
-display: flex;
-justify-content: space-around;
-width: 64%;
+#top-header {
+  background-color: #1d1c1c;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+}
+#nav-one {
+  display: flex;
+  justify-content: space-around;
+  width: 64%;
 }
 #nav-one a {
- padding: 5px;
- display: inline-block;
- color: rgb(221 202 202);
-
+  padding: 5px;
+  display: inline-block;
+  color: rgb(221 202 202);
 }
 
-#nav-one a:hover{
-color: white;
-
+#nav-one a:hover {
+  color: white;
 }
 /* #nav-one a:hover+#test{
  color: green;
 } */
 
+#logo-apple {
+  width: 20px;
+  height: 20px;
+  opacity: .5;
+}
+#logo-apple:hover {
+opacity: 1;
+}
+#logo-search {
+  width: 20px;
+  height: 20px;
+}
 
-  #logo-apple {
-    width: 20px;
-    height: 20px;
-  }
-  
-  
-  #logo-search {
-    width: 20px;
-    height: 20px;
-  }
+#logo-bag {
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+}
 
-  
-  #logo-bag {
-    width:20px;
-    height: 20px;
-    margin-left: 25px;
-  }
-
-  #bottom-header {
-    background-color: #ce3737;
-    height: 50px;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    font-size: medium;
-  }
-  /* #bottom-header p{
+#bottom-header {
+  background-color: #ce3737;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: medium;
+}
+/* #bottom-header p{
     margin: 0;
   padding: 16px;
   text-align: center;
   } */
 
-  #bottom {
-    color: rgb(255, 247, 247);
+#bottom {
+  color: rgb(255, 247, 247);
+}
 
-  }
+#shop {
+  color: rgb(245, 245, 245);
+}
 
-  #shop {
-    color: rgb(245, 245, 245);
-  }
+/* end of header */
 
-  /* end of header */
-  
-  main {
-    background-color: white;
-    min-height: 500px;
-  }
-
+main {
+  background-color: white;
+  min-height: 500px;
+}
+#section-mac{
+  display: flex;
+}
 /* .banner{
 display: flex;
  justify-content: center;
@@ -119,30 +117,28 @@ padding: 5px;
 margin-top: 15px;
 } */
 
-.title-banner{
-
- font-size:50pt;
- text-align: center;
- color: #443d3d;
- margin: 0;
- padding-top: 50px;
+.title-banner1 {
+  font-size: 50pt;
+  text-align: center;
+  color: #443d3d;
+  margin: 0;
+  padding-top: 50px;
 }
 
-.title2-banner {
+.title1-banner1 {
   margin-top: 6px;
- font-size: 28px;
- text-align: center;
+  font-size: 28px;
+  text-align: center;
 }
 
-.links-banner {
- margin-top: 6px;
- text-align: center;
-
+.links-banner1 {
+  margin-top: 6px;
+  text-align: center;
 }
-.links-banner a{
- padding: 15px;
- color: #2997ff;
- font-size: 20px;
+.links-banner1 a {
+  padding: 15px;
+  color: #2997ff;
+  font-size: 20px;
 }
 /* .image-banner{
 text-align: center;
@@ -158,89 +154,232 @@ margin-bottom: 10px; */
 width: 100%;
 } */
 
-.title-banner1{
-font-size:50pt;
- text-align: center;
- color: white;
- margin: 0;
- padding-top: 50px;
+.title-banner2 {
+  font-size: 50pt;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 50px;
 }
 
-.title2-banner2{
-margin-top: 6px;
- font-size: 35px;
- text-align: center;
- color: #fec2eb;
+.title2-banner2 {
+  margin-top: 6px;
+  font-size: 35px;
+  text-align: center;
+  color: #fec2eb;
 }
 
-.links-banner1 {
- margin-top: 6px;
- text-align: center;
+.links-banner2 {
+  margin-top: 6px;
+  text-align: center;
 }
 
-.links-banner1 a{
- padding: 15px;
- color:#2997ff;
- font-size: 20px;
+.links-banner2 a {
+  padding: 15px;
+  color: #2997ff;
+  font-size: 20px;
 }
 
-.image-banner{
-background-image: url(../images/banner/iphone_13pro.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size:cover;
-width:1319px;
-height:636px;
-margin-bottom: 10px;
-}
-
-.image-banner1{
- background-image: url(../images/banner/iphone_13.jpg);
- background-position: center;
-background-repeat: no-repeat;
-background-size:cover;
-width: 1349px;
-height: 636px;
-
-}
-
-.banner2{
+/* .banner3{
  height: 500px;
  padding: 30px;
 background-color: white;
+} */
 
+.title-banner {
+  font-size: 25pt;
+  text-align: center;
+  color: black;
+  margin: 0;
+  /* padding-top: 50px; */
 }
-.title-banner2{
-font-size:50pt;
- 
- text-align: center;
- color: black;
- margin: 0;
- 
+.title-4{
+  margin-top:350px ;
 }
-.image-banner2{
- background-image: url(../images/banner/macbookpro.jpg);
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- width: 721px;
- height:412px;
- margin: -17px 25px 0 -17px;
- display: inline-block;
+.title-8{
+  color: white;
 }
 
-.image-banner3{
+.title2-banner {
+  margin-top: 12px;
+  font-size: 27px;
+  text-align: center;
+  color: #4a4545;
+}
+
+.links-banner3 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.links-banner3 a {
+  padding: 15px;
+  color: #2997ff;
+  font-size: 20px;
+}
+
+.links-banner4 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.links-banner4 a {
+  padding: 15px;
+  color: #2997ff;
+  font-size: 20px;
+}
+
+
+/* .title5-banner5{
+          margin-top: 22px;
+           font-size: 27px;
+           text-align: center;
+           color: #4a4545;
+         
+          }
+           */
+.links-banner5 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.links-banner5 a {
+  padding: 15px;
+  color: #2997ff;
+  font-size: 20px;
+}
+
+
+.links-banner6 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.links-banner6 a {
+  padding: 15px;
+  color: #2997ff;
+  font-size: 20px;
+}
+
+.title-banner7 {
+  font-size: 20pt;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+
+.links-banner7 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.links-banner7 a {
+  padding: 15px;
+  color: #2997ff;
+  font-size: 20px;
+}
+
+
+.links-banner8 {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.links-banner8 a {
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.image-banner1 {
+  background-image: url(../images/banner/iphone_13pro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1319px;
+  height: 636px;
+  margin-bottom: 10px;
+}
+
+.image-banner2 {
+  background-image: url(../images/banner/iphone_13.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1349px;
+  height: 636px;
+}
+
+.image-banner3 {
+  background-image: url(../images/banner/macbookpro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 49%;
+  height: 515px;
+  display: inline-block;
+  margin: 12px;
+}
+
+.image-banner4 {
   background-image: url(../images/banner/airpods.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 500px;
-  height:494px;
-  margin: -17px 0 0 -17px;
+  width: 48%;
+  height: 517px;
   display: inline-block;
- }
+  margin: 12px 12px 12px 0;
+}
 
-  footer {
-    background-color: #f3f3f3;
-    height: 350px;
-  }
+.image-banner5 {
+  background-image: url(../images/banner/homepod_mini.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 49%;
+  height: 515px;
+  display: inline-block;
+  margin: 0 12px 12px 12px;
+  padding-top: 52px;
+}
+
+.image-banner6 {
+  background-image: url(../images/banner/watch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48%;
+  height: 568px;
+  display: inline-block;
+  margin: 0 12px 12px 0;
+}
+
+.image-banner7 {
+  background-image: url(../images/banner/card.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 49%;
+  height: 586px;
+  display: inline-block;
+  margin: 0 12px 12px 12px;
+}
+
+.image-banner8 {
+  background-image: url(../images/banner/user.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48%;
+  height: 559px;
+  display: inline-block;
+  margin: 0 12px 12px 0;
+  padding-top: 30px;
+}
+
+footer {
+  background-color: #f3f3f3;
+  height: 350px;
+}
