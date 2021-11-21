@@ -37,47 +37,23 @@ header {
  color: green;
 } */
 
-/* #logo-apple {
+#logo-apple {
   width: 20px;
   height: 20px;
   opacity: .5;
 }
 #logo-apple:hover {
 opacity: 1;
-} */
-.fa-apple{
-  font-size: 13pt;
-  color: rgb(221 202 202);
 }
-.fa-apple:hover{
-  color: white;
-}
-
-/* #logo-search {
+#logo-search {
   width: 20px;
   height: 20px;
-} */
-.fa-search{
-  font-size: 13pt;
-  color: rgb(221 202 202);
-  padding-right: 37px;
-  padding-left: 12px;
 }
-.fa-search:hover{
-  color: white;
-}
-/* #logo-bag {
+
+#logo-bag {
   width: 20px;
   height: 20px;
   margin-left: 25px;
-} */
-
-.fa-shopping-bag{
-  font-size: 13pt;
-  color:rgb(221 202 202);
-}
-.fa-shopping-bag:hover{
-  color: white;
 }
 
 #bottom-header {
