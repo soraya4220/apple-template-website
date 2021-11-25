@@ -332,30 +332,39 @@ margin-top: 15px;
 
 footer {
   background-color: #f5f5f7;
-  height: 350px;
+  min-height: 350px;
+  
   
 }
 ul{
   list-style: none;
 }
 
+
 .foot-section-1{
   display: flex;
   justify-content:space-evenly; 
+  
 }
 
-.text-1{
+.foot-text1{
   color: #6e6e73;
-  font-size: 1em;
+  font-size: 10pt;
   font-weight: 400;
   color: #6e6e73;
-  padding: 6px 70px 0 70px;
+  padding: 6px 197px 18px 197px;
+  border-bottom:1px solid #d7c1c1;
 }
 
 .link-foot{
   color: #424245;
 }
-#footnote-1{
-
-  
+a{
+  text-decoration: underline;
+}
+.part-1{
+  display: flex;
+  text-align: left;
+  justify-content:space-between;
+  align-items: center;
 }
