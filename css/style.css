@@ -341,17 +341,18 @@ ul{
 }
 
 
-.foot-section-1{
+#foot-section-1{
   display: flex;
-  justify-content:space-evenly; 
-  
+}
+#foot-section-2{
+  display: flex;
+  margin: 10px 152px 0 152px;
 }
 
 .foot-text1{
   color: #6e6e73;
   font-size: 10pt;
   font-weight: 400;
-  color: #6e6e73;
   padding: 6px 197px 18px 197px;
   border-bottom:1px solid #d7c1c1;
 }
@@ -362,9 +363,16 @@ ul{
 a{
   text-decoration: underline;
 }
-.part-1{
-  display: flex;
+#part-1{
+  display: inline-block;
   text-align: left;
-  justify-content:space-between;
-  align-items: center;
+ margin-top: -14px;
+ color: #232324;
+ font-size: 10pt;
+ font-weight: 400;
+
 }
+/* .footer-2{
+  color: #ce3737;
+
+} */
