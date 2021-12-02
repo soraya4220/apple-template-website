@@ -78,6 +78,7 @@ body {
     font-size: medium;
     padding: 50px 174px;
   }
+  
   #image-1{
     background-image: url(images/mac/macbookair.svg);
     background-position: center;
@@ -163,18 +164,31 @@ body {
     background-image: url(images/mac/mac_shop.svg);
     background-position: center;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 80px;
     height:50px;
   }
-  .link-bottom-header{
+  .link-bottom-header {
+    padding-top: 60px;
+  }
+
+  .link-bottom-header a{
     color: #876f6f;
     font-size: 9pt;
-    
+  
+
+  }
+  
+
+  #link-bottom-header{
+    padding-top: 0;
+    color:#e96161;
   }
   .link-bottom a:hover{
     text-decoration: underline;
-    color: blue;
+    /* color: blue; */
   }
+
+  /* beginning of main */
   .top-main{
       background-color: #ce3737;
       height: 50px;
@@ -195,18 +209,114 @@ body {
   #shop{
     color: white;
   }
+  #section-2{
+    display: flex;
+  }
   .banner-1{
     background-image: url(images/banner/macbookpro.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   width: 100%;
-  height: 636px;
+  height: 1000px;
+  margin-top: 0;
 
   }
+  
+  
   #title-1{
-    color: red;
+    color: #ef6d21;
+    padding-top: 20px;
+    font-size: 15pt;
+    text-align: center;
   }
+  
+  #title-2{
+    text-align: center;
+    color: #5a5353;
+    font-size: 20pt;
+    margin-top: -36px;
+  }
+  #title-3{
+    text-align: center;
+    color: black;
+    font-size: 40pt;
+    margin-top: -32px;
+  }
+  #title-4{
+    color: #625a56;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: -45px;
+  }
+  #button-1{
+    background: #0071e3;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  #link-banner-1{
+    color: #06c;
+    font-size: 20pt;
+    text-align: center;
+  }
+  #section-3{
+    display: flex;
+  }
+.banner-2{
+  background-image: url(images/mac/compare_mba.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height: 180px;
+}
+
+.title-1-banner-2{
+  text-align: center;
+    color: black;
+    font-size: 20pt;
+}
+.title-2-banner-2{
+  display: flex;
+  justify-content: center;
+}
+
+.banner-3{
+  background-image: url(images/mac/compare_mbp13_.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height: 180px;
+}
+
+.banner-4{
+  background-image: url(images/mac/compare_mbp14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height: 180px;
+}
+.tab-nav-item{
+  display: flex;
+  justify-content: center;
+  
+}
+.tab-nav-item-1{
+  border-bottom: 1px solid #d2d2d7;
+
+}
+.tab-nav-item-2{
+  padding-left: 60px;
+  border-bottom: 1px solid #d2d2d7;
+  list-style: none;
+  
+
+}
+
   footer{
     background: cadetblue;
     min-height: 500px;
