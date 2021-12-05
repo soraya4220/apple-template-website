@@ -1,25 +1,64 @@
+body{
+    background: lightcyan;
+}
+.box-form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .form{
-    box-shadow:0 0 0 black 
-}
-.form-login{
-    width: 40%;
+    background: white;
+    width: 84%;
     margin: auto;
+    box-shadow: 1px 2px 4px 1px #0000003d;
     padding: 20px;
-
 }
+
 .btn-form{
     color: #0a0a0a;
     background: #cbbb10;
     padding: 10px 30px;
-    width: 80%;
+    width: 100%;
     height: 40px;
     font-size: 12pt;
 }
 .form-group{
 margin-bottom:15px ;
+padding: 0 30px;
 }
 .form-control{
-    width: 78%;
+    width: 100%;
     height: 30px;
+}
+@media screen and (min-width: 567px) {
+    .form{
+        width: 63%;
+        height: 30%;
+    }
+}
+@media screen and (min-width: 786px) {
+  
+}
+@media screen and (min-width: 922px) {
+    .form{
+        width: 50%;
+        height: 30%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .form{
+        width: 40%;
+        height: 40%;
+    }
+    /* .btn-form{
 
+        background: lightsalmon;
+    } */
+}
+@media screen and (min-width: 1400px) {
+    .form{
+        width: 30%;
+        height: 50%;
+    }
 }
