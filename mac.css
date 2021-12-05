@@ -1,323 +1,261 @@
 body {
-    margin: 0px;
-    direction: ltr;
-  }
-  a {
-    text-decoration: none;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
-  ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  /* beginning of header */
-  header {
-    background-color: white;
-    height: 150px
-  }
-  
-  
-  #top-header {
-    background-color: #1d1c1c;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: small;
-    position: fixed; 
-  }
-  #nav-one {
-    display: flex;
-    justify-content: space-around;
-    width: 64%;
-  }
-  #nav-one a {
-    padding: 5px;
-    display: inline-block;
-    color: rgb(221 202 202);
-  }
-  
-  #nav-one a:hover {
-    color: white;
-  }
-  .fa-apple{
-    font-size: 13pt;
-    color: rgb(221 202 202);
-  }
-  .fa-apple:hover{
-    color: white;
-  }
-  .fa-search{
-    font-size: 13pt;
-    color: rgb(221 202 202);
-    padding-right: 37px;
-    padding-left: 12px;
-  }
-  .fa-search:hover{
-    color: white;
-  }
-  .fa-shopping-bag{
-    font-size: 13pt;
-    color:rgb(221 202 202);
-  }
-  .fa-shopping-bag:hover{
-    color: white;
-  }  
-  
-   .bottom-header {
-    background-color: white;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-  
-    text-align: center;
-    font-size: medium;
-    padding: 50px 174px;
-  }
-  
-  #image-1{
-    background-image: url(images/mac/macbookair.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 66px;
-    height: 59px;
-  }
-  #image-2{
-
-    background-image: url(images/mac/macbook_pro.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-
-  #image-3{
-
-    background-image: url(images/mac/imac__7.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-
-  
-  #image-4{
-
-    background-image: url(images/mac/mac_pro_light.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-
-  
-  #image-5{
-
-    background-image: url(images/mac/mac_pro_display.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-  
-  #image-6{
-
-    background-image: url(images/mac/mac_os.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-  
-  #image-7{
-    background-image: url(images/mac/mac_mini.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-  
-  #image-8{
-
-    background-image: url(images/mac/mac_compare.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-  
-  #image-9{
-
-    background-image: url(images/mac/mac_accessories.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-  
-  #image-10{
-
-    background-image: url(images/mac/mac_shop.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 80px;
-    height:50px;
-  }
-  .link-bottom-header {
-    padding-top: 60px;
-  }
-
-  .link-bottom-header a{
-    color: #876f6f;
-    font-size: 9pt;
-  
-
-  }
-  
-
-  #link-bottom-header{
-    padding-top: 0;
-    color:#e96161;
-  }
-  .link-bottom a:hover{
-    text-decoration: underline;
-    /* color: blue; */
-  }
-
-  /* beginning of main */
-  .top-main{
-      background-color: #ce3737;
-      height: 50px;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      font-size: medium;
-      
-  }
-
-  main {
-    background-color: white;
-    min-height: 1000px;
-  }
-  .top-main{
-    color: white;
-  }
-  #shop{
-    color: white;
-  }
-  #section-2{
-    display: flex;
-  }
-  .banner-1{
-    background-image: url(images/banner/macbookpro.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  width: 100%;
-  height: 1000px;
-  margin-top: 0;
-
-  }
-  
-  
-  #title-1{
-    color: #ef6d21;
-    padding-top: 20px;
-    font-size: 15pt;
-    text-align: center;
-  }
-  
-  #title-2{
-    text-align: center;
-    color: #5a5353;
-    font-size: 20pt;
-    margin-top: -36px;
-  }
-  #title-3{
-    text-align: center;
-    color: black;
-    font-size: 40pt;
-    margin-top: -32px;
-  }
-  #title-4{
-    color: #625a56;
-    font-size: 20pt;
-    text-align: center;
-    margin-top: -45px;
-  }
-  #button-1{
-    background: #0071e3;
-    color: #fff;
-    text-align: center;
-    border-radius: 20px;
-    display: inline-block;
-  }
-  #link-banner-1{
-    color: #06c;
-    font-size: 20pt;
-    text-align: center;
-  }
-  #section-3{
-    display: flex;
-  }
-.banner-2{
-  background-image: url(images/mac/compare_mba.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20%;
-  height: 180px;
+  margin: 0px;
+  direction: ltr;
 }
-
-.title-1-banner-2{
-  text-align: center;
-    color: black;
-    font-size: 20pt;
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
 }
-.title-2-banner-2{
-  display: flex;
-  justify-content: center;
+a:hover{
+  text-decoration: underline;
 }
-
-.banner-3{
-  background-image: url(images/mac/compare_mbp13_.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20%;
-  height: 180px;
-}
-
-.banner-4{
-  background-image: url(images/mac/compare_mbp14.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20%;
-  height: 180px;
-}
-.tab-nav-item{
-  display: flex;
-  justify-content: center;
-  
-}
-.tab-nav-item-1{
-  border-bottom: 1px solid #d2d2d7;
-
-}
-.tab-nav-item-2{
-  padding-left: 60px;
-  border-bottom: 1px solid #d2d2d7;
+ul{
   list-style: none;
-  
-
+  margin: 0;
+  padding: 0;
+}
+/* beginning of header */
+header {
+  background-color: white;
 }
 
-  footer{
-    background: cadetblue;
-    min-height: 500px;
+
+#top-header {
+  background-color: #1d1c1c;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  position: fixed; 
+}
+#nav-one {
+  display: flex;
+  justify-content: space-around;
+  width: 64%;
+}
+#nav-one a {
+  padding: 5px;
+  display: inline-block;
+  color: rgb(221 202 202);
+}
+
+#nav-one a:hover {
+  color: white;
+}
+.fa-apple{
+  font-size: 13pt;
+  color: rgb(221 202 202);
+}
+.fa-apple:hover{
+  color: white;
+}
+.fa-search{
+  font-size: 13pt;
+  color: rgb(221 202 202);
+  padding-right: 37px;
+  padding-left: 12px;
+}
+.fa-search:hover{
+  color: white;
+}
+.fa-shopping-bag{
+  font-size: 13pt;
+  color:rgb(221 202 202);
+}
+.fa-shopping-bag:hover{
+  color: white;
+}  
+
+#middle-header {
+  background-color: whitesmoke;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  padding: 50px 175px 20px;
+}
+.link-middle-header{
+  color: #876f6f;
+  font-size: 9pt;
+  margin-top: 60px;
+}
+.link-middle-header:hover{
+  color: blue;
+  text-decoration: none;
+}
+.new{
+  margin:0;
+  color: #f55050;
+  font-size: 10pt;
+}
+.new:hover{
+  text-decoration: none;
+}
+.link-middle{
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 50px;
+}
+#image-1{
+  background-image: url(images/mac/macbookair.svg);
+}
+#image-2{
+  background-image: url(images/mac/macbook_pro.svg);
+}
+#image-3{
+  background-image: url(images/mac/imac__7.svg); 
+}
+#image-4{
+  background-image: url(images/mac/mac_pro_light.svg);
+}
+#image-5{
+  background-image: url(images/mac/mac_pro_display.svg); 
+}
+#image-6{
+  background-image: url(images/mac/mac_os.svg);
+}
+#image-7{
+  background-image: url(images/mac/mac_mini.svg);  
+}
+#image-8{
+  background-image: url(images/mac/mac_compare.svg);
+}
+#image-9{
+  background-image: url(images/mac/mac_accessories.svg);
+}
+
+#image-10{
+  background-image: url(images/mac/mac_shop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height:50px;
+}
+
+.link-bottom a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+#bottom-header{
+    background-color: #ce3737;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: medium;
+    
+}
+
+main {
+  background-color: white;
+  min-height: 1000px;
+}
+
+.bottom-link{
+  color: white;
+}
+
+#bottom-link-shop{
+  color: white;
+}
+#section-1{
+  background-color: white;
+}
+
+.banner-1{
+  background-image: url(images/banner/macbookpro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 100%;
+height: 1000px;
+padding-top: 1px;
+
+}
+#section-1-title-1{
+  color: red;
+  display: flex;
+  justify-content: center;
+  font-size: 13pt;
+    padding-top: 50px;
+}
+
+#section-1-title-2{
+  color: #302626;
+  display: flex;
+  justify-content: center;
+  font-size: 17pt;
+  margin: 0px;
+}
+
+#section-1-title-3{
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  font-size: 35pt;
+  margin: 0px;
+}
+
+
+#section-1-title-4{
+  color: #302626;
+  display: flex;
+  justify-content: center;
+  font-size: 13pt;
+  margin: 0px;
+}
+
+#button-1 a{
+  display: flex;
+  justify-content: center;
+}
+
+#section-1-title-5{
+  display: flex;
+  justify-content: center;
+  font-size: 13pt;
+ 
+}
+#link-1-banner-1{
+  color: blue;
+}
+#section-2{
+  height: 600px;
+  background-color: white;
+}
+.section-2-title-1{
+  display: flex;
+  justify-content: center;
+  font-size: 38pt;
+  padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  background: cadetblue;
+  min-height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  #middle-header {
+      padding: 50px 50px 20px;
   }
+
+  
+}
