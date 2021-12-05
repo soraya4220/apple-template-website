@@ -84,6 +84,11 @@ opacity: 1;
   font-size: 13pt;
   color:rgb(221 202 202);
 }
+.fa-user{
+  font-size: 13pt;
+  color:rgb(221 202 202);
+  padding-left: 20px;
+}
 .fa-shopping-bag:hover{
   color: white;
 }

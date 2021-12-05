@@ -168,6 +168,7 @@ main {
 }
 #section-1{
   background-color: white;
+  
 }
 
 .banner-1{
@@ -252,10 +253,20 @@ footer{
   min-height: 500px;
 }
 
-@media screen and (max-width: 600px) {
-  #middle-header {
-      padding: 50px 50px 20px;
+@media screen and (max-width:600px){
+
+  #middle-header{
+    padding: 40px 150px 50px;
+    
+  }
+  #bottom-header{
+    display: none;
+    background-color: blueviolet;
+  }
+  .new{
+    display: none;
+  }
+    
   }
 
-  
-}
+
