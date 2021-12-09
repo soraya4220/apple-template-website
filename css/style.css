@@ -96,17 +96,21 @@ height:50px ;
 .item-cart{
   display: flex;
 justify-content: space-between;
+padding-bottom: 10px;
 
 }
 .list-cart{
   position: absolute;
   z-index: 300;
-  width: 300px;
-  background: #e6e4e4;
-  top: 29px;
+  width: 250px;
+  background:white;
+  top: 37px;
   left: -177px;
   padding: 25px;
-  
+  border-radius: 10px;
+}
+.border{
+border-bottom: #8e8383 solid 1px;
 }
 .price{
   display: flex;

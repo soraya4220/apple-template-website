@@ -1,6 +1,9 @@
 body{
     background: lightcyan;
 }
+a{
+    text-decoration: none;
+}
 .box-form{
     height: 100vh;
     display: flex;
@@ -9,10 +12,11 @@ body{
 }
 .form{
     background: white;
-    width: 84%;
+    width: 54%;
     margin: auto;
     box-shadow: 1px 2px 4px 1px #0000003d;
     padding: 20px;
+    height: 65%;
 }
 .form-control{
     width: 100%;
@@ -26,39 +30,51 @@ body{
     height: 40px;
     font-size: 12pt;
 }
+.log-in:hover{
+    color:orange ;
+    text-decoration: underline;
+}
+.login-text{
+    margin-top: 20px;
+}
+.log-in-help{
+    padding-top: 20px;
+}
 .form-group{
 margin-bottom:15px ;
 padding: 0 30px;
 }
-
+/* 
 @media screen and (min-width: 567px) {
     .form{
-        width: 63%;
-        height: 30%;
+        width: 93%;
+        height: 80%;
     }
-}
+
+    
+} */
 @media screen and (min-width: 786px) {
   
 }
-@media screen and (min-width: 922px) {
+/* @media screen and (min-width: 922px) {
     .form{
         width: 50%;
         height: 30%;
     }
-}
-@media screen and (min-width: 1200px) {
+} */
+/* @media screen and (min-width: 1200px) {
     .form{
         width: 40%;
         height: 40%;
-    }
+    } */
     /* .btn-form{
 
         background: lightsalmon;
     } */
-}
+/* }
 @media screen and (min-width: 1400px) {
     .form{
         width: 30%;
         height: 50%;
     }
-}
+} */
