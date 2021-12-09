@@ -15,8 +15,6 @@ header {
   background-color: white;
   height: 100px
 }
-
-
 #top-header {
   background-color: #1d1c1c;
   height: 50px;
@@ -37,22 +35,9 @@ header {
   display: inline-block;
   color: rgb(221 202 202);
 }
-
 #nav-one a:hover {
   color: white;
 }
-/* #nav-one a:hover+#test{
- color: green;
-} */
-
-/* #logo-apple {
-  width: 20px;
-  height: 20px;
-  opacity: .5;
-}
-#logo-apple:hover {
-opacity: 1;
-} */
 .fa-apple{
   font-size: 13pt;
   color: rgb(221 202 202);
@@ -60,11 +45,6 @@ opacity: 1;
 .fa-apple:hover{
   color: white;
 }
-
-/* #logo-search {
-  width: 20px;
-  height: 20px;
-} */
 .fa-search{
   font-size: 13pt;
   color: rgb(221 202 202);
@@ -74,12 +54,6 @@ opacity: 1;
 .fa-search:hover{
   color: white;
 }
-/* #logo-bag {
-  width: 20px;
-  height: 20px;
-  margin-left: 25px;
-} */
-
 .fa-shopping-bag{
   font-size: 13pt;
   color:rgb(221 202 202);
@@ -92,7 +66,6 @@ opacity: 1;
 .fa-shopping-bag:hover{
   color: white;
 }
-
 #bottom-header {
   background-color: #ce3737;
   height: 50px;
@@ -115,11 +88,34 @@ opacity: 1;
 #bag{
   position: relative;
 }
+.item-cart img{
+width: 50px;
+height:50px ;
 
+}
+.item-cart{
+  display: flex;
+justify-content: space-between;
+
+}
+.list-cart{
+  position: absolute;
+  z-index: 300;
+  width: 300px;
+  background: #e6e4e4;
+  top: 29px;
+  left: -177px;
+  padding: 25px;
+  
+}
+.price{
+  display: flex;
+ 
+  padding-left: 150px;
+}
 #bottom {
   color: rgb(255, 247, 247);
 }
-
 #shop {
   color: rgb(245, 245, 245);
 }
@@ -132,48 +128,8 @@ main {
 }
 .banner-main{
   display: flex;
+  flex-wrap: wrap;
 }
-/* #section-3{
-  display: flex;
-}
-#section-4{
-  display: flex;
-}
-#section-5{
-  display: flex;
-} */
-
-/* .banner{
-display: flex;
- justify-content: center;
- align-items: center;
-flex-direction: column;
-height: 500px;
-}
-.title-banner{
-
- font-size:xx-large;
- margin-top: 30px;
-}
-
-.title2-banner {
-  margin-top: 10px;
- font-size: large;
-}
-
-.links-banner {
- margin-top: 10px;
- color: rgb(108, 108, 233);
-} */
-/* /// راه حل دوم */
-/* .banner{
-height:100%;
-width: 100%;
-padding: 5px;
-margin-top: 15px;
-} */
-
-
 .title-banner1{
   font-size: 50pt;
   text-align: center;
@@ -184,7 +140,6 @@ margin-top: 15px;
 .banner-1{
   color: white;
 }
-
 .title1-banner1 {
   margin-top: 6px;
   font-size: 28px;
@@ -193,7 +148,6 @@ margin-top: 15px;
 .title-1{
  color:#fec2eb ; 
 }
-
 .links-banner1 {
   margin-top: 6px;
   text-align: center;
@@ -212,117 +166,61 @@ margin-top: 15px;
 .link-8 a{
   color: white;
 }
-
-
-/* .title-banner2 {
-  font-size: 50pt;
-  text-align: center;
-  color: white;
-  margin: 0;
-  padding-top: 50px;
-}
-
-.title2-banner2 {
-  margin-top: 6px;
-  font-size: 35px;
-  text-align: center;
-  color: #fec2eb;
-}
-
-.links-banner2 {
-  margin-top: 6px;
-  text-align: center;
-}
-
-.links-banner2 a {
-  padding: 15px;
-  color: #2997ff;
-  font-size: 20px;
-} */
-
 .title-banner {
   font-size: 25pt;
   text-align: center;
   color: black;
   margin: 0;
 }
-
 .title-3{
   margin-top:58px ;
 }
-
 .title-4{
   margin-top:350px ;
 }
-
 .title-6{
   margin-top:58px ;
 }
-
 .title-7{
   margin-top:58px ;
 }
-
 .title-8{
   color: white;
 }
-
-
 .title2-banner {
   margin-top: 12px;
   font-size: 27px;
   text-align: center;
   color: #4a4545;
 }
-
 .title2-8{
   color: white;
 }
-
 .image-banner1 {
   background-image: url(../images/banner/iphone_13pro.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 900px;
   margin-bottom: 10px;
 }
-
 .image-banner2 {
   background-image: url(../images/banner/iphone_13.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width:100%;
   height: 636px;
 }
-
 .image-banner3 {
   background-image: url(../images/banner/macbookpro.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 49%;
   height: 515px;
   margin: 12px;
 }
-
 .image-banner4 {
   background-image: url(../images/banner/airpods.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 48%;
   height: 517px;
   margin: 12px 12px 12px 0;
 }
-
 .image-banner5 {
   background-image: url(../images/banner/homepod_mini.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 49%;
   height: 515px;
   margin: 0 12px 12px 12px;
@@ -332,12 +230,8 @@ margin-top: 15px;
   font-size: 25pt;
   color: black;
 }
-
 .image-banner6 {
-  background-image: url(../images/banner/watch.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../images/banner/watch__small.jpg);
   width: 48%;
   height: 568px;
   margin: 0 12px 12px 0;
@@ -346,26 +240,23 @@ margin-top: 15px;
   font-size: 25pt;
   color: black;
 }
-
 .image-banner7 {
   background-image: url(../images/banner/card.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 49%;
   height: 586px;
   margin: 0 12px 12px 12px;
 }
-
 .image-banner8 {
   background-image: url(../images/banner/user.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 48%;
   height: 559px;
   margin: 0 12px 12px 0;
   padding-top: 30px;
+}
+.set-images{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #logo-tv{
   font-size: 25pt;
@@ -381,38 +272,31 @@ footer {
   margin: auto;
   width: 75%;
 }
-
-
 #foot-section-1{
   display: flex;
   padding: 15px 0;
   margin-bottom: 15px;
   border-bottom: 1px solid #d7c1c1;
 }
-
 .foot-text1{
   color: gray;
   font-size: 12px;
   font-weight: 400;
 }
-
 .link-foot{
   color: #424245;
 }
 .link-foot:hover{
   text-decoration: underline;
 }
-
 #foot-section-2{
   display: flex; 
   justify-content: space-between;
 }
-
 .topic{
   color:#544a4a;
   font-size: 9pt;
 }
-
 .footer-2{
   color:#8f8080;
   font-size: 9pt;
@@ -426,14 +310,12 @@ footer {
   border-bottom:1px solid #d7c1c1;
   padding-bottom: 10px;
 }
-
 .link-end{
   color: blue;
 }
 .link-end:hover{
   text-decoration: underline;
 }
-
 #foot-end2{
   font-size: 9pt;
   color:#544a4a;
@@ -445,7 +327,6 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-
 .foot-4-holder{
   display: flex;
 }
@@ -459,15 +340,12 @@ footer {
 .foot-4:hover{
   text-decoration: underline;
 }
-
 #foot-4{
   font-size: 9pt;
   color: gray;
   margin-right: 7px;
   padding-right: 10px;
 }
-
-
 #united{
   font-size: 9pt;
   color: gray;
@@ -475,13 +353,16 @@ footer {
 #united:hover{
   text-decoration: underline;
 }
-
 #foot-text1{
   color: #6e6e73;
   font-size: 12px;
   font-weight: 400;
-
   }
+@media screen and (max-width:570px){
+.image-banner1,.image-banner2,.image-banner3,.image-banner4,
+.image-banner5,.image-banner6,.image-banner7,.image-banner8{
+  width: 100%;
+}
 
-
+}
 
