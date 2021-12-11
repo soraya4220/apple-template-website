@@ -12,15 +12,19 @@ a{
 }
 .form{
     background: white;
-    width: 54%;
+    width: 84%;
     margin: auto;
     box-shadow: 1px 2px 4px 1px #0000003d;
     padding: 20px;
-    height: 65%;
+    /* height: 65%; */
+    border: 1px solid #e4dede;
 }
 .form-control{
     width: 100%;
     height: 30px;
+    box-shadow: -3px 0px 5px 0px #ff8100;
+    margin-top: 5px; 
+    
 }
 .btn-form{
     color: #0a0a0a;
@@ -44,37 +48,30 @@ a{
 margin-bottom:15px ;
 padding: 0 30px;
 }
-/* 
+
 @media screen and (min-width: 567px) {
     .form{
-        width: 93%;
-        height: 80%;
+        width: 63%;
+        height: 75%;
     }
-
-    
-} */
-@media screen and (min-width: 786px) {
-  
 }
-/* @media screen and (min-width: 922px) {
-    .form{
-        width: 50%;
-        height: 30%;
-    }
-} */
-/* @media screen and (min-width: 1200px) {
-    .form{
-        width: 40%;
-        height: 40%;
-    } */
-    /* .btn-form{
 
-        background: lightsalmon;
-    } */
-/* }
+@media screen and (min-width: 922px) {
+    .form{
+        width: 75%;
+        height: 71%;
+        
+    }
+}
+@media screen and (min-width: 1200px) {
+    .form{
+        width: 70%;
+        height: 69%;
+    } 
+}
 @media screen and (min-width: 1400px) {
     .form{
-        width: 30%;
-        height: 50%;
-    }
-} */
+        width: 60%;
+        height: 69%;
+    } 
+}

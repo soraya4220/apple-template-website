@@ -214,9 +214,13 @@ padding-top: 1px;
   margin: 0px;
 }
 
-#button-1 a{
+#button-1{
   display: flex;
   justify-content: center;
+}
+#button-1-link{
+  color:white;
+  background: blue;
 }
 
 #section-1-title-5{
