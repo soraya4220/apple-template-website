@@ -224,7 +224,7 @@ main {
   margin: 12px 12px 12px 0;
 }
 .image-banner5 {
-  background-image: url(../images/banner/homepod_mini.jpg);
+  background-image: url(../images/banner/homepod_mini__small.jpg);
   width: 49%;
   height: 515px;
   margin: 0 12px 12px 12px;
@@ -367,6 +367,7 @@ footer {
 .image-banner5,.image-banner6,.image-banner7,.image-banner8{
   width: 100%;
 }
-
+.image-banner1{
+  background-image: url(../images/banner/_iphone_13pro_small_2x.jpg);
 }
-
+}

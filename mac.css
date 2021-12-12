@@ -219,8 +219,14 @@ padding-top: 1px;
   justify-content: center;
 }
 #button-1-link{
-  color:white;
-  background: blue;
+  color: white;
+  background: #3e3ef3;
+  width: 40pX;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-left: 650px;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 #section-1-title-5{
@@ -242,7 +248,76 @@ padding-top: 1px;
   font-size: 38pt;
   padding-top: 80px;
 }
-
+.tab-nav-item, .set-banners, .set-icon-banners{
+  display: flex;
+  justify-content: center;
+}
+.tab-nav-item a{
+  padding-left: 40px;
+  padding-top: 50px;
+  border-bottom: 1px solid #c5b9b9;
+  color: #565656;
+}
+.banner-3{
+  background-image: url(images/mac/compare_mbp13_.png);
+}
+.banner-4{
+  background-image: url(images/mac/compare_mbp14.png);
+}
+.set-images{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 276px;
+  height: 167px;
+}
+.set-icon-banner{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icon-banner-2{
+  background-image: url(images/mac/compare_swatches_three_colors.png);
+  width: 50px;
+  height: 14px;
+  margin-left: 112px;
+    margin-top: 17px;
+}
+.icon-banner-3, .icon-banner-4{
+  background-image: url(images/mac/compare_swatches_two_color.png);
+  width: 32px;
+  height: 14px;
+  margin-top: 188px;
+  margin-left: 120px;
+}
+.title-banner{
+  font-size: 13pt;
+  margin-left: 70px;
+  margin-top: 50px;
+    color: #1c1717;
+}
+.cost{
+  font-size: 8pt;
+    color: gray;
+    margin-left: 96px;
+    margin-top: 10px;
+}
+.cost-14{
+  margin-left: 124px;
+}
+.button{
+  color: white;
+  background: #3e3ef3;
+  width: 30px;
+  height: 20px;
+  padding-left: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border-radius: -11px;
+}
+.button-14{
+  margin-left: 130px;
+}
 
 
 

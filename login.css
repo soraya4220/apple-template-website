@@ -19,6 +19,9 @@ a{
     /* height: 65%; */
     border: 1px solid #e4dede;
 }
+.sign-in{
+    margin-left: 27px;
+}
 .form-control{
     width: 100%;
     height: 30px;
@@ -58,20 +61,20 @@ padding: 0 30px;
 
 @media screen and (min-width: 922px) {
     .form{
-        width: 75%;
-        height: 71%;
+        width: 40%;
+        height: 73%;
         
     }
 }
 @media screen and (min-width: 1200px) {
     .form{
-        width: 70%;
-        height: 69%;
+        width: 40%;
+        height: 73%;
     } 
 }
 @media screen and (min-width: 1400px) {
     .form{
-        width: 60%;
+        width: 45%;
         height: 69%;
     } 
 }
