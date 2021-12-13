@@ -8,7 +8,7 @@ a {
   color: black;
 }
 a:hover{
-  text-decoration: underline;
+ border-bottom: 1px solid gray;
 }
 ul{
   list-style: none;
@@ -230,17 +230,22 @@ padding-top: 1px;
   display: flex;
   justify-content: center;
 }
+.tab-nav-item{
+  width: 14%;
+  margin: 40px auto;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcc5c5;
+}
 .tab-nav-item a{
-  padding-left: 40px;
-  padding-top: 50px;
-  border-bottom: 1px solid #c5b9b9;
   color: #565656;
+  padding-bottom: 8px;
 }
 .banner-3{
   background-image: url(images/mac/compare_mbp13_.png);
 }
 .banner-4{
   background-image: url(images/mac/compare_mbp14.png);
+  margin-left: 40px;
 }
 .set-images{
   background-position: center;
@@ -291,7 +296,7 @@ padding-top: 1px;
   padding-left: 10px;
   margin-left: 100px;
   border-radius: 10px;
-  border-radius: -11px;
+  border-radius: 11px;
 }
 .button-14{
   margin-left: 130px;
